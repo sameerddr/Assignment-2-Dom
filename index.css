@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-color: rgb(204, 170, 125);
+    background-color: rgb(225, 230, 231);
+    font-size: medium;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container input {
+    margin-left: 20px;
+}
+
+.btn {
+    padding: 0px 10px;
+    margin-left: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    color: red;
+}
+
+.container li a {
+    color: #000;
+    float: right;
+}
+
+.container #error {
+    color: red;
+    font-size: 20px;
+}
