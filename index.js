@@ -18,26 +18,8 @@ function addmore() {
         box.appendChild(lii);
         box.appendChild(liii);
 
-        let delbut = document.createElement("a");
-        delbut.textContent = "x";
-        delbut.href = "javascript:void(0)";
-        li.appendChild(delbut);
-
-
     }
     document.getElementById("name").value;
     document.getElementById("name2").value;
     document.getElementById("name3").value;
-}
-
-let btn = document.querySelector("ul");
-// btn.addEventListener("click", function(e) {
-//             // let boxx = document.getElementById("box");
-//             // let lidel = e.target.parentNode;
-//             // boxx.removeChild(lidel);
-//         }
-
-function myFunction() {
-    const element = document.getElementById("demo");
-    element.remove();
 }
