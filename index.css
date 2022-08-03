@@ -47,12 +47,3 @@ ul li {
     color: red;
     font-size: 20px;
 }
-
-
-/* 
-let btn = document.querySelector("ul");
-btn.addEventListener("click", function(e) {
-            let boxx = document.getElementById("box");
-            let li = e.target.parentNode;
-            boxx.removeChild(li);
-        } */
