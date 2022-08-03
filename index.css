@@ -24,20 +24,23 @@
 }
 
 ul {
-    margin-left: 20px;
     display: flex;
     list-style: none;
     padding: 0;
+    align-items: center;
+    justify-content: space-around;
 }
 
 ul li {
     display: flex;
-    color: red;
+    color: #000;
 }
 
 .container li a {
     color: #000;
-    float: right;
+    /* float: right; */
+    font-weight: 500;
+    /* float: right; */
 }
 
 .container #error {

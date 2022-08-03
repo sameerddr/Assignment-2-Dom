@@ -17,5 +17,22 @@ function addmore() {
         box.appendChild(li);
         box.appendChild(lii);
         box.appendChild(liii);
+
+        let delbut = document.createElement("a");
+        delbut.textContent = "x";
+        delbut.href = "javascript:void(0)";
+        li.appendChild(delbut);
+
+
     }
+    document.getElementById("name").value;
+    document.getElementById("name2").value;
+    document.getElementById("name3").value;
 }
+
+let btn = document.querySelector("ul");
+btn.addEventListener("click", function(e) {
+            if (e.targer.tagname == "A") {
+                e.target.parentElement.remove();
+            }
+        }
