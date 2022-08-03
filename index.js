@@ -31,8 +31,13 @@ function addmore() {
 }
 
 let btn = document.querySelector("ul");
-btn.addEventListener("click", function(e) {
-            if (e.targer.tagname == "A") {
-                e.target.parentElement.remove();
-            }
-        }
+// btn.addEventListener("click", function(e) {
+//             // let boxx = document.getElementById("box");
+//             // let lidel = e.target.parentNode;
+//             // boxx.removeChild(lidel);
+//         }
+
+function myFunction() {
+    const element = document.getElementById("demo");
+    element.remove();
+}
